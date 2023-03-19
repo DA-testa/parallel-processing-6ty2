@@ -18,8 +18,6 @@ def main():
     n,m =map(int,input().split())
     data = list(map(int,input().split()))
     
-
-
     result = parallel_processing(n,m,data)
     
     # TODO: print out the results, each pair in it's own line
